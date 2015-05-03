@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1430639501 source:e:\other\work\repositories\landscape\new\landscape\main.cpp
+	<iostream>
+	<GL/glut.h>
+
