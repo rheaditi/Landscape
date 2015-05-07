@@ -55,7 +55,7 @@ void myReshape(int w,int h)
     glViewport(0,0,winsize,winsize);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-300.0,300.0,-300.0,300.0,-300.0,300.0);
+    glOrtho(-700.0,700.0,-700.0,700.0,-700.0,700.0);
     //glFrustum(-20.0,20.0,-20.0,20.0,-70.0,70.0);
     glMatrixMode(GL_MODELVIEW);
 }
@@ -67,27 +67,27 @@ void keyboard(unsigned char key, int mousex, int mousey)
     {
     case 'w':
     case 'W':
-        viewerEye[2]++;
+        viewerEye[2]+=2;
         break;
     case 's':
     case 'S':
-        viewerEye[2]--;
+        viewerEye[2]-=2;
         break;
     case 'a':
     case 'A':
-        viewerEye[0]++;
+        viewerEye[0]+=2;
         break;
     case 'd':
     case 'D':
-        viewerEye[0]--;
+        viewerEye[0]-=2;
         break;
     case 'q':
     case 'Q':
-        viewerEye[1]++;
+        viewerEye[1]+=2;
         break;
     case 'e':
     case 'E':
-        viewerEye[1]--;
+        viewerEye[1]-=2;
         break;
     }
     glutPostRedisplay();
