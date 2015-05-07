@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1430639501 source:e:\other\work\repositories\landscape\new\landscape\main.cpp
+	<iostream>
+	<GL/glut.h>
+
+1430662756 source:e:\other\work\repositories\landscape\new\main.cpp
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<sys/time.h>
+	<math.h>
+
+1430666574 source:c:\users\abinav\documents\landscape\new\main.cpp
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<sys/time.h>
+	<math.h>
+
